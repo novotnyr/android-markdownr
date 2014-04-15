@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 
 public class MarkdownPreviewFragment extends Fragment {
-	public static final String ENCODING = "utf-8";
-	public static final String CONTENT_TYPE = "text/html";
+	public static final String ENCODING = null;
+	public static final String CONTENT_TYPE = "text/html; charset=UTF-8";
 	private static final String DEFAULT_HTML = "<i>No Markdown source</i>";
 	private static final String ARG_KEY_HTML_DATA = "htmlData";
 	private WebView webView;
