@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:app="http://schemas.android.com/apk/res-auto"      
+    >
+
+    <item
+        android:id="@+id/show_source_menu"
+        android:title="Show source"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/show_html_menu"
+        android:title="Preview"
+        app:showAsAction="ifRoom"
+    />
+    <item
+        android:id="@+id/refresh_menu"
+        android:title="Refresh"
+      	app:showAsAction="ifRoom"
+    />
+    <item
+        android:id="@+id/new_file_menu"
+        android:title="New file"
+      	app:showAsAction="never"
+    />
+        
+    
+</menu>

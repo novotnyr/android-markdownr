@@ -1,0 +1,8 @@
+<EditText
+    	xmlns:android="http://schemas.android.com/apk/res/android" 
+    	android:id="@+id/edit_text_markdown_source"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:inputType="textMultiLine"
+    	android:gravity="top|left"
+/>
